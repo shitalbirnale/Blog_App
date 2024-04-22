@@ -1,3 +1,4 @@
 # Blog_App
-#This application made by using .Net Core MVC and SQL SERVER and Entity framework-code first apporach
-#In this app we can upload new blog post and view all blog posts and used cards to show blog post as well
+#This application is made by using .Net Core MVC and SQL SERVER and Entity framework-code first approach.
+#For the code-first approach we used Add-Migration and Update-Database commands to create a database based on Models.
+#In this app we can upload new blog posts view all blog posts and use cards to show blog posts as well
