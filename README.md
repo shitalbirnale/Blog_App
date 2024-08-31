@@ -14,3 +14,16 @@ Add-Migration MigrationsName
 
 Create upgrade/downgrade script -
 Update-Database
+
+Step to Setup Project
+
+-Create Dot net Core MVC Project
+-Install EntitiyFramework nuget packages - Microsoft.EntityFramework.Tools , Microsoft.EntityFrameWork.SqlServer
+-Setup Models for your Projects
+-Configure/Define Database connection String into appsetings.json
+-Create/Define DbContext files
+-configure DB connection configuration in program.cs file and AddMvc() middleware as well
+-Then use migration cmd to create tables - Add-Migration Test , Update-Database
+-Then Create Controller with EntityFrameWork read /write and select model and context file
+
+
